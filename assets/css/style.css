@@ -112,11 +112,7 @@ main {
     object-fit: cover;
     margin-bottom: 15px;
     background-color: #333; /* Backup color if the image fails to load */
-}
-
-
-  
-
+} 
 .profile-info h2 {
     font-size: 22px;
     color: #f1f1f1;
@@ -145,6 +141,19 @@ main {
 .social-links a img:hover {
     transform: scale(1.1);
 }
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    filter: invert(1); /* Makes icon white */
+    transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+
 
 
 
