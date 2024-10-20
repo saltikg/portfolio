@@ -1,7 +1,3 @@
----
-layout: default
-title: Project 1
----
 # ETL and Domo Visualization Project: Marketing Metrics Dashboard
 
 ## Project Overview
