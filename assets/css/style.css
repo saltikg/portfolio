@@ -87,36 +87,36 @@ main {
 .content-wrapper {
     display: flex;
     align-items: flex-start;
+    padding: 40px; /* Add padding to make spacing more even */
 }
-
-/* Profile Section */
-
-/* Profile Section */
 /* Profile Section */
 .profile-section {
     width: 300px; /* Adjust width as needed */
-    padding: 20px;
-    background-color: #000 !important; /* Force black background */
-    border-radius: 10px;
-    text-align: center;
-    margin-right: 40px; /* Space between profile and main content */
+    padding: 0;
+    background-color: #111; /* Match with main background */
+    text-align: left; /* Align text to the left */
+    margin-right: 60px; /* Space between profile and main content */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
- 
-
-/* Add these to ensure proper visibility */
+/* Profile Picture */
 .profile-pic {
-    width: 120px; /* Adjust size */
+    width: 120px;
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
-    background-color: #333; /* Backup color if the image fails to load */
-} 
+    border: 3px solid #fff; /* Optional border to make the picture stand out */
+}
+
+/* Profile Information */
 .profile-info h2 {
-    font-size: 22px;
+    font-size: 24px;
     color: #f1f1f1;
-    margin: 10px 0;
+    margin: 15px 0 5px;
+    font-weight: bold;
 }
 
 .profile-info p {
@@ -125,15 +125,31 @@ main {
     margin-bottom: 15px;
 }
 
+/* Title & Job description (like in reference design) */
+.profile-title {
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.profile-subtitle {
+    font-size: 18px;
+    color: #ff4081; /* Accent color */
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Social Links */
 .social-links {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 15px;
 }
 
 .social-links a img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     filter: invert(1); /* Makes icon white */
     transition: transform 0.2s ease;
 }
@@ -141,6 +157,7 @@ main {
 .social-links a img:hover {
     transform: scale(1.1);
 }
+
 
 .social-icon {
     width: 30px;
