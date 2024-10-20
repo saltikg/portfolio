@@ -14,15 +14,17 @@ title: Resume
 Senior Data Analyst with over 6 years of experience, specializing in driving product growth and enhancing customer engagement. My strong business intuition and background in marketing and product management enable me to see the big picture and contribute effectively to overall company strategy. My mission is to leverage my skills in SQL, Python, and Tableau to deliver data-driven insights and recommendations that drive business growth and innovation.
 
 ## KEY SKILLS
-- Advanced SQL Queries
-- Data Visualization
-- Metric Development & Analysis
-- Stakeholder Management
-- Data Analysis with Pandas & Python
-- Cross-functional Collaboration
-- A/B Testing
-- Product Analytics
-- Tableau
+<ul class="key-skills">
+    <li class="key-skills-item">Advanced SQL Queries</li>
+    <li class="key-skills-item">Data Visualization</li>
+    <li class="key-skills-item">Metric Development & Analysis</li>
+    <li class="key-skills-item">Stakeholder Management</li>
+    <li class="key-skills-item">Data Analysis with Pandas & Python</li>
+    <li class="key-skills-item">Cross-functional Collaboration</li>
+    <li class="key-skills-item">A/B Testing</li>
+    <li class="key-skills-item">Product Analytics</li>
+    <li class="key-skills-item">Tableau</li>
+</ul>
 
 ## PROFESSIONAL EXPERIENCE
 
