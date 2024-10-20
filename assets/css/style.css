@@ -170,6 +170,30 @@ main {
     transform: scale(1.1);
 }
 
+/* Key Skills Section */
+.key-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.key-skills-item {
+    flex: 0 1 30%; /* Adjust to make three columns */
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #b3b3b3; /* Subtle text color */
+    list-style-type: none;
+}
+
+/* For smaller screens, stack the skills vertically */
+@media (max-width: 768px) {
+    .key-skills {
+        flex-direction: column;
+    }
+}
+
+
 
 
 
