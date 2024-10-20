@@ -202,20 +202,19 @@ nav {
 }
 
 
-
-
-/* Projects Grid */
 .projects-overview {
-    padding: 50px 0;
-    text-align: center;
+    padding-top: 0; /* Remove extra space above */
+    padding-left: 40px; /* Align left with the profile picture */
 }
 
 .projects-overview h2 {
-    font-size: 36px;
-    font-weight: bold;
     color: #fff;
-    margin-bottom: 40px;
+    font-size: 28px; /* Adjust font size to match the original */
+    font-weight: bold;
+    margin: 0 0 20px 0; /* Remove top margin and add space below */
+    text-align: left; /* Ensure text alignment to the left */
 }
+ 
 
 .projects-grid {
     display: grid;
