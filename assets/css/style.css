@@ -90,22 +90,29 @@ main {
 }
 
 /* Profile Section */
+
+/* Profile Section */
 .profile-section {
     width: 300px; /* Adjust width as needed */
     padding: 20px;
-    background-color: #222; /* Dark background for profile area */
+    background-color: #111; /* Dark background for profile area */
     border-radius: 10px;
     text-align: center;
     margin-right: 40px; /* Space between profile and main content */
 }
 
+/* Add these to ensure proper visibility */
 .profile-pic {
     width: 120px; /* Adjust size */
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
+    background-color: #333; /* Backup color if the image fails to load */
 }
+
+
+  
 
 .profile-info h2 {
     font-size: 22px;
