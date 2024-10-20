@@ -81,3 +81,60 @@ nav {
 main {
     padding: 20px 40px;
 }
+
+
+/* Main Content Wrapper */
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Profile Section */
+.profile-section {
+    width: 300px; /* Adjust width as needed */
+    padding: 20px;
+    background-color: #222; /* Dark background for profile area */
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 40px; /* Space between profile and main content */
+}
+
+.profile-pic {
+    width: 120px; /* Adjust size */
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile-info h2 {
+    font-size: 22px;
+    color: #f1f1f1;
+    margin: 10px 0;
+}
+
+.profile-info p {
+    color: #b3b3b3;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links a img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1); /* Makes icon white */
+    transition: transform 0.2s ease;
+}
+
+.social-links a img:hover {
+    transform: scale(1.1);
+}
+
+
+
