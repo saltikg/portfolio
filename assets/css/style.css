@@ -92,14 +92,17 @@ main {
 /* Profile Section */
 
 /* Profile Section */
+/* Profile Section */
 .profile-section {
     width: 300px; /* Adjust width as needed */
     padding: 20px;
-    background-color: #111; /* Dark background for profile area */
+    background-color: #000 !important; /* Force black background */
     border-radius: 10px;
     text-align: center;
     margin-right: 40px; /* Space between profile and main content */
 }
+
+ 
 
 /* Add these to ensure proper visibility */
 .profile-pic {
