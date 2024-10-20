@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #111;
-    color: #fff;
+    background-color: #111 !important;  /* Ensure background is black */
+    color: #fff !important;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #222;
+    background-color: #222 !important;  /* Darker header */
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@ header {
 .logo {
     margin: 0;
     font-size: 24px;
-    color: #f1f1f1;
+    color: #f1f1f1 !important;
     font-weight: bold;
 }
 
@@ -46,18 +46,18 @@ nav {
 
 .nav-links li a {
     text-decoration: none;
-    color: #f1f1f1;
+    color: #f1f1f1 !important;
     font-weight: bold;
 }
 
 .nav-links li a:hover {
-    color: #ff4081; /* Highlight color */
+    color: #ff4081 !important; /* Highlight color */
 }
 
 .cta-button {
     padding: 8px 15px;
-    background-color: #ff4081;
-    color: #fff;
+    background-color: #ff4081 !important;
+    color: #fff !important;
     border: none;
     border-radius: 25px;
     cursor: pointer;
@@ -66,5 +66,5 @@ nav {
 }
 
 .cta-button:hover {
-    background-color: #e0336f;
+    background-color: #e0336f !important;
 }
