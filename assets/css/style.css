@@ -37,15 +37,21 @@ header {
     margin-left: 20px; /* Position the logo */
 }
 
-/* Ensure logo link does not interfere with text styling */
+/* Remove underline from the logo link */
 .logo-link {
-    text-decoration: none; /* Remove underline */
+    text-decoration: none; /* Ensure no underline */
+}
+
+/* Ensure that the text stays styled correctly */
+.logo-link .handwritten {
+    color: #f1f1f1; /* Keep the text white or your preferred color */
 }
 
 /* Optional hover effect for the logo */
 .logo-link:hover .handwritten {
-    color: #ff4081; /* Change color on hover */
+    color: #ff4081; /* Change color on hover if desired */
 }
+
 
 
 /* Navigation Links */
