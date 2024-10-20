@@ -8,36 +8,49 @@ body {
 
 header {
     background-color: #222;
-    padding: 10px;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-content h1 {
-    margin: 0;
-    color: #f1f1f1;
-    font-size: 24px;
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
-nav ul {
+.logo {
+    margin: 0;
+    font-size: 24px;
+    color: #f1f1f1;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
     list-style: none;
+    display: flex;
     padding: 0;
     margin: 0;
-    display: flex;
 }
 
-nav ul li {
+.nav-links li {
     margin: 0 15px;
 }
 
-nav ul li a {
+.nav-links li a {
     text-decoration: none;
     color: #f1f1f1;
     font-weight: bold;
 }
 
-nav ul li a:hover {
+.nav-links li a:hover {
     color: #ff4081; /* Highlight color */
 }
 
@@ -46,8 +59,10 @@ nav ul li a:hover {
     background-color: #ff4081;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
     cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
