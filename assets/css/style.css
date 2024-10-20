@@ -29,6 +29,40 @@ header {
     width: 100%;
 }
 
+html {
+    overflow-y: scroll; /* Always show vertical scrollbar */
+}
+
+body {
+    overflow-y: auto;
+}
+
+
+/* General scrollbar styling for better visuals */
+body::-webkit-scrollbar {
+    width: 10px; /* Adjust the width of the scrollbar */
+    background-color: #222; /* Background color of the scrollbar track */
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background: #111; /* The color of the scrollbar background */
+    border-radius: 10px; /* Rounded edges for a smoother look */
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background-color: #ff4081; /* The color of the scrollbar handle */
+    border-radius: 10px; /* Rounded handle */
+    border: 2px solid #222; /* Adds padding around the handle */
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #e0336f; /* Slightly brighter color when hovered */
+}
+
+
 /* Handwritten Logo Style */
 .handwritten {
     font-family: 'Caveat', cursive;
