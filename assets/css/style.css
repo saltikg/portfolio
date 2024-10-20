@@ -1,281 +1,106 @@
 /* General Body Styling */
-body, html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #111 !important;
     color: #fff !important;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header and Menu Styling */
 header {
-    background-color: #222 !important;  /* Darker header */
-    padding: 20px 40px; /* Adjust padding for a larger header */
+    background-color: #222 !important; 
+    padding: 10px 40px; /* Adjust padding for a more compact header */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-content {
+/* Profile Section */
+.profile-section {
+    width: 300px; 
+    min-width: 300px; 
+    padding: 20px;
+    background-color: #000; 
+    text-align: center;
+    margin-right: 50px; /* Provide a more natural spacing */
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+    margin-left: auto; /* Center the profile section */
+}
+
+/* Featured Projects Styling */
+.projects-overview {
+    padding: 20px 0; /* Reduce padding for compactness */
+    text-align: left;
+    margin-left: auto; /* Align naturally without fixed margin */
+}
+
+/* Featured Projects Title */
+.projects-title {
+    font-size: 24px; /* Reduce font size for a more compact title */
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px; /* Less space below the title */
+}
+
+/* Project Items Styling */
+.project-item {
+    background-color: #222;
+    padding: 15px; /* Reduce padding for compactness */
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+.project-item img {
     width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
-
-.handwritten {
-    font-family: 'Caveat', cursive;
-    font-size: 36px; /* Adjust size as needed */
-    color: #f1f1f1; /* Keep the text white or adjust to your preference */
-    margin-left: 20px; /* Position the logo */
+.project-description {
+    font-size: 14px; 
+    color: #ff4081; /* Pink accent color */
+    margin: 5px 0; /* Reduce margin for a cleaner look */
 }
 
-
-
-/* Navigation Links */
-nav {
-    display: flex;
-    align-items: center;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-links li {
-    margin: 0 20px; /* Increase space between menu items */
-    list-style-type: none;
-}
-
-.nav-links li a {
-    text-decoration: none;
-    color: #f1f1f1 !important;
-    font-weight: 600;
-    transition: color 0.3s;
-}
-
-.nav-links li a:hover {
-    color: #ff4081 !important; /* Highlight color */
-}
-
-/* Gradient Button Styling */
+/* Compact Say Hello Button */
 .cta-button {
-    padding: 10px 20px; /* Bigger button */
-    background: linear-gradient(135deg, #ff4081, #ff6f61) !important; /* Add gradient */
+    padding: 8px 16px; 
+    background: linear-gradient(135deg, #ff4081, #ff6f61) !important;
     color: #fff !important;
     border: none;
     border-radius: 25px;
     cursor: pointer;
     font-weight: bold;
     transition: background 0.3s ease, transform 0.2s;
-    box-shadow: 0px 4px 6px rgba(0,0,0,0.1); /* Add subtle shadow */
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1); 
     font-family: 'Segoe UI', sans-serif;
 }
 
 .cta-button:hover {
-    background: linear-gradient(135deg, #e0336f, #ff4081) !important; /* Change gradient on hover */
-    transform: scale(1.05); /* Slightly enlarges on hover */
+    background: linear-gradient(135deg, #e0336f, #ff4081) !important;
+    transform: scale(1.05); 
 }
 
-/* Main Content Wrapper */
+/* General Content Wrapper */
 .content-wrapper {
     display: flex;
     align-items: flex-start;
-    padding: 40px; /* Add padding to make spacing more even */
+    padding: 20px; /* More compact spacing */
+    flex-wrap: wrap; /* Ensure responsiveness */
 }
 
-/* Profile Section */
-.profile-section {
-    width: 300px; /* Ensures consistent width */
-    min-width: 300px; /* Prevents shrinking */
-    padding: 20px;
-    background-color: #111; /* Consistent black background */
-    text-align: center;
-    margin-right: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 10px; /* Slightly rounded corners */
-}
-
-/* Profile Picture */
-.profile-pic {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 15px;
-    border: 2px solid #222; /* Remove the white border */
-}
-
-/* Profile Information */
-.profile-info h2 {
-    font-size: 24px;
-    color: #f1f1f1;
-    margin: 15px 0 5px;
-    font-weight: bold;
-}
-
-.profile-info p {
-    color: #b3b3b3;
-    font-size: 14px;
-    margin-bottom: 15px;
-}
-
-/* Title & Job Description */
-.profile-title {
-    font-size: 28px;
-    color: #fff;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.profile-subtitle {
-    font-size: 18px;
-    color: #ff4081; /* Accent color */
-    font-style: italic;
-    margin-bottom: 20px;
-}
-
-/* Social Links */
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.social-links a img {
-    width: 25px;
-    height: 25px;
-    filter: invert(1); /* Makes icon white */
-    transition: transform 0.2s ease;
-}
-
-.social-links a img:hover {
-    transform: scale(1.1);
-}
-
-/* Key Skills Section */
-.key-skills {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(150px, 1fr)); /* Create three equal columns */
-    gap: 10px; /* Space between items */
-    padding: 10px 0;
-}
-
-.key-skills-item {
-    font-size: 16px;
-    color: #b3b3b3; /* Subtle text color */
-    list-style-type: none;
-}
-
-/* Responsive adjustment for smaller screens */
-@media (max-width: 768px) {
-    .key-skills {
-        grid-template-columns: 1fr; /* Stack items in a single column */
-    }
-}
-
-/* Introduction Section */
-.intro-section {
-    text-align: center;
-    padding: 50px 0;
-}
-
-.intro-content h2 {
-    font-size: 42px;
-    font-weight: bold;
-    color: #fff;
-}
-
-.social-icons a {
-    margin: 0 10px;
-}
-.projects-overview {
-    padding-top: 0; /* Remove extra space above */
-    padding-left: 40px; /* Align left with the profile picture */
-}
-
-.projects-overview h2 {
-    color: #fff;
-    font-size: 28px; /* Adjust font size to match the original */
-    font-weight: bold;
-    margin: 0 0 20px 0; /* Remove top margin and add space below */
-    text-align: left; /* Ensure text alignment to the left */
-}
-
-
-
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); /* Better adaptability */
-    gap: 30px; /* Add consistent space between projects */
-    padding: 0 40px;
-}
-
-.project-item {
-    background-color: #222; /* Match background */
-    padding: 20px;
-    border-radius: 10px; /* Smooth corners */
-    text-align: left; /* Left-align text for better readability */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
-}
-
-.project-item:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4); /* Deepen shadow */
-}
-
-.project-item img {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    height: auto;
-    object-fit: cover;
-}
-
-/* Adjust text inside projects */
-.project-title {
-    font-size: 22px;
-    font-weight: bold;
-    color: #ff4081;
-    margin-bottom: 10px;
-}
-
-.project-desc {
-    font-size: 16px;
-    color: #b3b3b3;
-}
-
-/* Make links more readable */
-.project-link {
-    font-size: 18px;
-    color: #ff4081;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.project-link:hover {
-    text-decoration: underline;
-}
-
-/* Footer Styling */
-footer {
-    background-color: #222;
-    padding: 20px;
-    text-align: center;
-    color: #b3b3b3;
-    font-size: 14px;
+/* Make Sections More Natural */
+.container {
+    margin: 0 auto;
+    max-width: 1200px; /* Control overall width */
+    padding: 20px; /* Compact padding */
 }
