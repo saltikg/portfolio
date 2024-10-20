@@ -24,5 +24,3 @@ Here are a few examples:
 - **Efficiency**: Automated the entire ETL process, reducing manual data processing time by 80%.
 - **Accuracy**: Improved data accuracy with rigorous data validation checks.
 - **Insights**: Enabled marketing and sales teams to make data-driven decisions.
-
-[Watch Demo](https://youtu.be/sample-demo) | [View Full Case Study](./ETL_Domo_Case_Study.pdf)
