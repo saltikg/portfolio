@@ -5,10 +5,7 @@ title: Resume
 
 # Gokhan Saltik
 
-**[LinkedIn](https://www.linkedin.com/in/gokhansaltik/)** ∙ gokhansaltik@gmail.com ∙ 650 476 57 34 ∙ Palo Alto, CA 94303  
-**Fully Work Authorized ∙ No Visa Sponsorship Required**
-
----
+** Palo Alto, CA 94303 
 
 ## PROFESSIONAL SUMMARY
 Senior Data Analyst with over 6 years of experience, specializing in driving product growth and enhancing customer engagement. My strong business intuition and background in marketing and product management enable me to see the big picture and contribute effectively to overall company strategy. My mission is to leverage my skills in SQL, Python, and Tableau to deliver data-driven insights and recommendations that drive business growth and innovation.
