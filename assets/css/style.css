@@ -194,6 +194,15 @@ main {
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/* Handwritten Logo Style */
+.handwritten {
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px; /* Adjust size as needed */
+    color: #f1f1f1; /* Keep the text white or adjust to your preference */
+    margin-left: 20px; /* Position the logo */
+}
 
 
 
