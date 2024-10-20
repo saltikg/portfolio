@@ -102,7 +102,7 @@ main {
     align-items: center;
 }
 
-
+ 
 /* Profile Picture */
 .profile-pic {
     width: 120px;
@@ -110,7 +110,7 @@ main {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
-    border: 3px solid #fff; /* Optional border to make the picture stand out */
+    border: none; /* Remove any white border */
 }
 
 /* Profile Information */
