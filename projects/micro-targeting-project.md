@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ETL and Domo Visualization Project: Marketing Metrics Dashboard"
+---
+
 # Micro-Targeting Campaign Analysis - Python & SQL
 
 ## Project Overview
