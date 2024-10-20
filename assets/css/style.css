@@ -225,12 +225,23 @@ nav {
 
 .project-item {
     background-color: #222; /* Match background */
-    padding: 0; /* Remove padding */
+    padding: 0; /* Remove padding around the entire div */
     border-radius: 10px; /* Smooth corners */
     text-align: left; /* Left-align text for better readability */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
     overflow: hidden; /* Ensure the image fills the div without overflow */
+}
+
+/* New Style for Text Wrapper */
+.project-content {
+    padding: 15px; /* Add padding to text content */
+}
+
+
+.project-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4); /* Deepen shadow */
 }
 
 .project-item:hover {
@@ -246,7 +257,6 @@ nav {
     margin: 0; /* Remove any margins */
 }
 
-
 /* Adjust text inside projects */
 .project-title {
     font-size: 22px;
@@ -254,11 +264,14 @@ nav {
     color: #ff4081;
     margin-bottom: 10px;
 }
+ 
+}
 
 .project-desc {
     font-size: 16px;
     color: #b3b3b3;
-}
+} 
+
 
 /* Make links more readable */
 .project-link {
