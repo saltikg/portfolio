@@ -202,36 +202,71 @@ nav {
 .social-icons a {
     margin: 0 10px;
 }
-
 /* Projects Grid */
 .projects-overview {
     padding: 50px 0;
     text-align: center;
 }
 
+.projects-overview h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 0 20px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); /* Better adaptability */
+    gap: 30px; /* Add consistent space between projects */
+    padding: 0 40px;
 }
 
 .project-item {
-    background-color: #222;
+    background-color: #222; /* Match background */
     padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    transition: transform 0.3s ease;
+    border-radius: 10px; /* Smooth corners */
+    text-align: left; /* Left-align text for better readability */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
 }
 
 .project-item:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4); /* Deepen shadow */
 }
 
 .project-item img {
     width: 100%;
     border-radius: 5px;
     margin-bottom: 15px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Adjust text inside projects */
+.project-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff4081;
+    margin-bottom: 10px;
+}
+
+.project-desc {
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+/* Make links more readable */
+.project-link {
+    font-size: 18px;
+    color: #ff4081;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
 }
 
 /* Footer Styling */
