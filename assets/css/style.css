@@ -64,4 +64,20 @@ nav {
     background: linear-gradient(135deg, #ff4081, #ff6f61) !important; /* Add gradient */
     color: #fff !important;
     border: none;
-    borde
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1); /* Add subtle shadow */
+}
+
+.cta-button:hover {
+    background: linear-gradient(135deg, #e0336f, #ff4081) !important; /* Change gradient on hover */
+    transform: scale(1.05); /* Slightly enlarges on hover */
+}
+
+/* General Styling for Main Content */
+main {
+    padding: 20px 40px;
+}
+
