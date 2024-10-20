@@ -91,15 +91,17 @@ main {
 }
 /* Profile Section */
 .profile-section {
-    width: 300px; /* Adjust width as needed */
-    padding: 0;
-    background-color: #111; /* Match with main background */
-    text-align: left; /* Align text to the left */
-    margin-right: 60px; /* Space between profile and main content */
+    width: 300px; /* Ensures consistent width */
+    min-width: 300px; /* Prevents shrinking */
+    padding: 20px;
+    background-color: #000; /* Background color consistent with the rest */
+    text-align: center;
+    margin-right: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
 }
+
 
 /* Profile Picture */
 .profile-pic {
