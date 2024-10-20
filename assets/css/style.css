@@ -172,24 +172,22 @@ main {
 
 /* Key Skills Section */
 .key-skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+    gap: 15px; /* Space between items */
     margin-top: 20px;
 }
 
 .key-skills-item {
-    flex: 0 1 30%; /* Adjust to make three columns */
-    margin-bottom: 10px;
     font-size: 16px;
     color: #b3b3b3; /* Subtle text color */
     list-style-type: none;
 }
 
-/* For smaller screens, stack the skills vertically */
+/* Responsive adjustment for smaller screens */
 @media (max-width: 768px) {
     .key-skills {
-        flex-direction: column;
+        grid-template-columns: 1fr; /* Stack items in a single column */
     }
 }
 
