@@ -37,6 +37,17 @@ header {
     margin-left: 20px; /* Position the logo */
 }
 
+/* Ensure logo link does not interfere with text styling */
+.logo-link {
+    text-decoration: none; /* Remove underline */
+}
+
+/* Optional hover effect for the logo */
+.logo-link:hover .handwritten {
+    color: #ff4081; /* Change color on hover */
+}
+
+
 /* Navigation Links */
 nav {
     display: flex;
