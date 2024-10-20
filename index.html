@@ -2,5 +2,37 @@
 layout: default
 title: Home
 ---
-# Welcome to My Portfolio
-This is a sample page to demonstrate the top menu. 
+
+<div class="intro-section">
+    <div class="intro-content">
+        <h2>Hi, I'm Gokhan Saltik</h2>
+        <p>Senior Data Analyst with expertise in data-driven solutions, customer engagement, and strategic growth.</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/gokhansaltik/" target="_blank">
+                <img src="{{ "/assets/img/linkedin-icon.png" | relative_url }}" alt="LinkedIn">
+            </a>
+            <!-- Add other social icons as needed -->
+        </div>
+    </div>
+</div>
+
+<div class="projects-overview">
+    <h3>Featured Projects</h3>
+    <div class="projects-grid">
+        <div class="project-item">
+            <a href="{{ site.baseurl }}/projects/project1">
+                <img src="{{ "/assets/img/project1-thumbnail.png" | relative_url }}" alt="Project 1">
+                <h4>Project 1 Title</h4>
+                <p>Short description of Project 1.</p>
+            </a>
+        </div>
+        <div class="project-item">
+            <a href="{{ site.baseurl }}/projects/project2">
+                <img src="{{ "/assets/img/project2-thumbnail.png" | relative_url }}" alt="Project 2">
+                <h4>Project 2 Title</h4>
+                <p>Short description of Project 2.</p>
+            </a>
+        </div>
+        <!-- Add more project items as needed -->
+    </div>
+</div>
