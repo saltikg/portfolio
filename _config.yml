@@ -1,3 +1,5 @@
 baseurl: "/portfolio"  # This is important since your repository is named "web"
 url: "https://saltikg.github.io"
 theme: jekyll-theme-minimal
+
+
