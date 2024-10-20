@@ -58,7 +58,7 @@ nav {
     color: #ff4081 !important; /* Highlight color */
 }
 
-/* Button Styling with Gradient */
+/* Gradient Button Styling */
 .cta-button {
     padding: 10px 20px; /* Bigger button */
     background: linear-gradient(135deg, #ff4081, #ff6f61) !important; /* Add gradient */
@@ -69,6 +69,7 @@ nav {
     font-weight: bold;
     transition: background 0.3s ease, transform 0.2s;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.1); /* Add subtle shadow */
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .cta-button:hover {
@@ -80,4 +81,3 @@ nav {
 main {
     padding: 20px 40px;
 }
-
