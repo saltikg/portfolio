@@ -12,10 +12,10 @@ This project analyzes and visualizes ridership recovery trends for the Metropoli
 This dashboard addresses the MTA’s key concerns by aligning with stakeholder priorities:
 
 - **Identifying Ridership Trends**: Monitoring recovery across transportation modes.  
-  ![Ridership Trends Chart](assets/img/maven-mta-14.png)
+  ![Ridership Trends Chart](img/maven-mta-14.png)
 
 - **Highlighting Key Insights**: Examining market share shifts, weekday vs. weekend patterns, and overall recovery rates.
- ![Ridership Trends Chart](assets/img/maven-mta-14.png)
+ ![Ridership Trends Chart](img/maven-mta-14.png)
 
 - **Supporting Decision-Making**: Offering insights to inform strategies amidst hybrid work trends.
 
