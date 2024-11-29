@@ -12,10 +12,9 @@ This project analyzes and visualizes ridership recovery trends for the Metropoli
 This dashboard addresses the MTA’s key concerns by aligning with stakeholder priorities:
 
 <a href="https://public.tableau.com/views/MavenCommuterChallengeNov302024/MainV2" 
-   style="color: #FFD700; text-decoration: none; font-weight: bold;">
+   style="color: #FFD700; text-decoration: none; font-weight: bold; font-size: 16px;">
    Explore the Dashboard on Tableau Public
 </a>
-
 
 
 - **Identifying Ridership Trends**: Monitoring recovery across transportation modes.  
