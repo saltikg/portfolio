@@ -14,11 +14,6 @@ This dashboard addresses the MTA’s key concerns by aligning with stakeholder p
 [Explore the Dashboard on Tableau Public](https://public.tableau.com/views/MavenCommuterChallengeNov302024/MainV2)
 
 
-![Dashboard Preview](https://public.tableau.com/static/images/Ma/MavenCommuterChallengeNov302024/MainV2/1.png)  
-[Explore the Full Interactive Dashboard](https://public.tableau.com/views/MavenCommuterChallengeNov302024/MainV2)
-
-
-
 
 - **Identifying Ridership Trends**: Monitoring recovery across transportation modes.  
   ![Ridership Trends Chart](../assets/img/maven-mta-14.png)
