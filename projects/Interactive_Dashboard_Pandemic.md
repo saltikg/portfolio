@@ -11,7 +11,7 @@ This project analyzes and visualizes ridership recovery trends for the Metropoli
 ## Stakeholder-Centric Approach
 This dashboard addresses the MTA’s key concerns by aligning with stakeholder priorities:
 
-<a href="https://public.tableau.com/views/MavenCommuterChallengeNov302024/MainV2" 
+<a href="https://public.tableau.com/views/MavenCommuterChallengeNov302024/MainV2" target="_blank" 
    style="color: #FFD700; text-decoration: none; font-weight: bold; font-size: 16px;">
    Explore the Dashboard on Tableau Public
 </a>
