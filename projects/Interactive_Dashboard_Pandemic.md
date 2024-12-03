@@ -2,7 +2,7 @@
 layout: default
 title: "MTA Ridership Recovery Dashboard"  
 --- 
-<h2 style="color: #ffffff;">Tools and Technologies Used<a href="https://public.tableau.com/views/MavenCommuterChallengeNov302024/MainV2" target="_blank" style="color: FFD700; text-decoration: none; font-weight: bold; font-size: 16px;">Explore the Dashboard on Tableau Public</a></h2> 
+<h2 style="color: #ffffff;">Tools and Technologies Used <a href="https://public.tableau.com/views/MavenCommuterChallengeNov302024/MainV2" target="_blank" style="color: FFD700; text-decoration: none; font-weight: bold; font-size: 16px;"> Explore the Dashboard on Tableau Public</a></h2> 
 <table style="width: 100%; border-collapse: collapse; background-color: #000000; color: #ffffff;">
   <thead>
     <tr style="background-color: #1c1c1c; color: #f0f0f0; text-align: left;">
