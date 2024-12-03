@@ -3,6 +3,17 @@ layout: default
 title: "MTA Ridership Recovery Dashboard"  
 ---
 
+## Tools and Technologies Used
+
+| **Category**          | **Tools**                                      |
+|------------------------|-----------------------------------------------|
+| Data Visualization     | Tableau                                       |
+| Data Preparation       | Python, Excel                                |
+| Dashboard Design       | Tableau Public                               |
+| Analysis & Insights    | Tableau, Python                              |
+| Data Sources           | Open Data Sources (e.g., MTA public dataset) |
+
+
 # MTA Ridership Recovery Dashboard
 
 ## Project Overview
