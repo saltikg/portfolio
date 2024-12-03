@@ -1,18 +1,38 @@
 ---
 layout: default
 title: "MTA Ridership Recovery Dashboard"  
----
-
-## Tools and Technologies Used
-
-| **Category**          | **Tools**                                      |
-|------------------------|-----------------------------------------------|
-| Data Visualization     | Tableau                                       |
-| Data Preparation       | Python, Excel                                |
-| Dashboard Design       | Tableau Public                               |
-| Analysis & Insights    | Tableau, Python                              |
-| Data Sources           | Open Data Sources (e.g., MTA public dataset) |
-
+--- 
+<h2>Tools and Technologies Used</h2>
+<table style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr style="background-color: #343a40; color: #ffffff; text-align: left;">
+      <th style="padding: 10px; border: 1px solid #ddd;">Category</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Tools</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border: 1px solid #ddd;">Data Visualization</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Tableau</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Data Preparation</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Python, Excel</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border: 1px solid #ddd;">Dashboard Design</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Tableau Public</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Analysis & Insights</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Tableau, Python</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border: 1px solid #ddd;">Data Sources</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Open Data Sources (e.g., MTA public dataset)</td>
+    </tr>
+  </tbody>
+</table>
 
 # MTA Ridership Recovery Dashboard
 
