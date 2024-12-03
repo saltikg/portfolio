@@ -36,8 +36,14 @@ title: "MTA Ridership Recovery Dashboard"
 
 # MTA Ridership Recovery Dashboard
 
+
+
+
 ## Project Overview
-This project analyzes and visualizes ridership recovery trends for the Metropolitan Transportation Authority (MTA) post-pandemic. It explores how COVID-19 impacted transportation behaviors and provides actionable insights to guide recovery strategies.
+Project Description: MTA Ridership Recovery Dashboard
+This project reflects that approach by focusing on the MTA’s ridership trends post-pandemic, addressing key questions and priorities to guide recovery efforts.
+
+As a data professional, I primarily aim to identify and align with stakeholder goals and objectives. By understanding their priorities, challenges, and decision-making needs, we can design visualizations and insights that resonate with their expectations, enabling effective, data-driven strategies.
 
 ## Stakeholder-Centric Approach
 This dashboard addresses the MTA’s key concerns by aligning with stakeholder priorities:
